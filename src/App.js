@@ -4,9 +4,8 @@ import './App.css';
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from "./views/Main";
 import Projects from "./views/Projects";
-import Resume from "./views/Resume";
 import About from "./views/About";
-import Contact from "./views/Contact";
+import Claim from "./components/ContactForm/";
 
 function App() {
   return (
@@ -16,8 +15,7 @@ function App() {
             <Main />
             <Projects />
             <About />
-            <Resume />
-            <Contact />
+            <Claim />
           </div>
       </div>
   );
@@ -28,5 +26,4 @@ export default App;
             // <Main />
             // <Projects />
             // <About />
-            // <Resume />
-            // <Contact />
+            // <Claim />
