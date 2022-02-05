@@ -97,10 +97,6 @@ function Diamonds() {
 
 function App() {
   return (
-    <div className="App">
-          <div className="wrapper">
-            {/* <NavBar /> */}
-             <Main />
     <Canvas linear flat camera={{ fov: 50, position: [0, 0, 30] }}>
       <Suspense fallback={null}>
         <Background />
