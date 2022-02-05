@@ -7,7 +7,7 @@ import BackfaceMaterial from "./backface-material"
 import RefractionMaterial from "./refraction-material"
 import diamondUrl from "./assets/diamond.glb"
 import textureUrl from "./assets/233.jpg"
-import style from style.css
+import "./styles.css
 
 
 
