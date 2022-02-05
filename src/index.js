@@ -100,7 +100,7 @@ function App() {
     <div className="App">
           <div className="wrapper">
             {/* <NavBar /> */}
-            <Main />
+             <Main />
     <Canvas linear flat camera={{ fov: 50, position: [0, 0, 30] }}>
       <Suspense fallback={null}>
         <Background />
@@ -109,7 +109,6 @@ function App() {
     </Canvas>
   )
 }
-export default App;
-       // <Main />
+
 
 ReactDOM.render(<App />, document.getElementById("root"))
