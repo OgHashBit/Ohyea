@@ -8,6 +8,8 @@ import RefractionMaterial from "./refraction-material"
 import diamondUrl from "./assets/diamond.glb"
 import textureUrl from "./assets/233.jpg"
 import "./styles.css"
+import './index.css';
+import App from './App';
 
 function Background() {
   const texture = useTexture(textureUrl)
